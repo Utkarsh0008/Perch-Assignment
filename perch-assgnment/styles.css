@@ -1,0 +1,150 @@
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .product-card {
+    flex: 0 0 calc(33.33% - 20px); 
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #apply-discount-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ 
+.navbar {
+    color: white;
+    font-weight: bold;
+  }
+
+
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; 
+  }
+  
+
+.image-container {
+    position: relative; 
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+  }
+  
+  /* it is custom CSS for the overlay content class (heading, paragraph, and button) */
+  .overlay h2 {
+    color: black;
+    font-weight:bold  ;
+    font-size: 40px;
+    padding-left: 20%;
+  }
+  
+  .overlay p {
+    font-size: 18px;
+    color: darkgray;
+    padding-left: 20%;
+    margin-top: 20px;
+  }
+  
+  
+  .overlay button {
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 20%;
+    margin-top: 20px;
+  }
+  
+  /* Custom CSS to move the overlay content to the right */
+  @media (min-width: 768px) {
+    .overlay {
+      left: 60%; 
+      margin-left: 30px; 
+    }
+  }
+
+  
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .center-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .center-image img{
+    max-width: 81%;
+    max-height: 65%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  .image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  
+  .image-overlay h3 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .image-overlay button {
+    padding: 10px 50px;
+    font-size: 22px;
+    margin-top: 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .text-center p{
+    margin-top: 16px;
+   font-size: 34px;
+  }
